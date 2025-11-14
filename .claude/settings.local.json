@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(project-structure.txt)",
+      "Bash(dir /s /b:*)",
+      "Bash(project-files-list.txt)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

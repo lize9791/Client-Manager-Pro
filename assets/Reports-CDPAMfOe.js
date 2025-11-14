@@ -1,0 +1,2 @@
+import{k as o,a0 as r,_ as t,Z as a,N as e,Y as p,j as _}from"./vue-vendor-ChRmxV0E.js";import{d,t as n,M as c}from"./naive-ui-C-WnQlxP.js";import{_ as i}from"./_plugin-vue_export-helper-DlAUqK2U.js";const m={class:"reports-view"},f=o({__name:"Reports",setup(l){return(u,s)=>(p(),r("div",m,[t(e(d),{title:"统计报表"},{default:a(()=>[t(e(n),{description:"报表功能开发中..."}),t(e(c),{depth:"3"},{default:a(()=>[...s[0]||(s[0]=[_(" 此页面将提供各类统计报表和数据分析功能。 ",-1)])]),_:1})]),_:1})]))}}),v=i(f,[["__scopeId","data-v-2a2a4218"]]);export{v as default};
+//# sourceMappingURL=Reports-CDPAMfOe.js.map
