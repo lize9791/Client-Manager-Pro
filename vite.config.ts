@@ -18,14 +18,18 @@ export default defineConfig({
   build: {
     target: 'es2020',
     outDir: 'dist',
-    sourcemap: true,
+    assetsDir: 'assets',
+    sourcemap: false,
+    minify: 'terser',
     rollupOptions: {
       output: {
-        manualChunks: {
-          'naive-ui': ['naive-ui'],
-          'vue-vendor': ['vue', 'vue-router', 'pinia'],
-          'supabase': ['@supabase/supabase-js'],
-          'excel': ['xlsx']
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js',
+        assetFileNames: ({ name }) => {
+          if (name && name.endsWith('.css')) {
+            return 'assets/css/[name]-[hash].[ext]'
+          }
+          return 'assets/[name]-[hash].[ext]'
         }
       }
     }

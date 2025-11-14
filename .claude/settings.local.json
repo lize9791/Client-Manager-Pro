@@ -4,7 +4,9 @@
       "Bash(tree:*)",
       "Bash(project-structure.txt)",
       "Bash(dir /s /b:*)",
-      "Bash(project-files-list.txt)"
+      "Bash(project-files-list.txt)",
+      "Bash(npm run build:deploy:*)",
+      "Bash(npm run deploy:*)"
     ],
     "deny": [],
     "ask": []

@@ -20,13 +20,7 @@
                 @keyup.enter="handleLogin"
               />
             </n-form-item>
-            <n-button
-              type="primary"
-              block
-              size="large"
-              :loading="loading"
-              @click="handleLogin"
-            >
+            <n-button type="primary" block size="large" :loading="loading" @click="handleLogin">
               登录
             </n-button>
           </n-form>
@@ -57,13 +51,7 @@
                 @keyup.enter="handleRegister"
               />
             </n-form-item>
-            <n-button
-              type="primary"
-              block
-              size="large"
-              :loading="loading"
-              @click="handleRegister"
-            >
+            <n-button type="primary" block size="large" :loading="loading" @click="handleRegister">
               注册
             </n-button>
           </n-form>
